@@ -7,7 +7,7 @@
                     <!-- <img src="../assets/images/slogo.png" alt="" class="w-16 h-16"> -->
                 </div>
                 
-               <h2 class="font-semibold text-center text-md">DIT Announcement System</h2>
+               <h2 class="font-semibold text-center text-md">DIT Information System</h2>
                <div class="my-4 text-xs font-light">Please enter your credentials to login!</div>
                <form @submit.prevent='handleLogin()'>
                    <div class="mt-4">
