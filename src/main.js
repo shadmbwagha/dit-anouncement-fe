@@ -4,7 +4,7 @@ import router from './router'
 import './style.css'
 import VueToast from 'vue-toast-notification';
 import 'vue-toast-notification/dist/theme-sugar.css';
-
+import './axios'
 createApp(App).use(router).use(VueToast, {
     position: 'bottom-right',
   }).mount('#app')
